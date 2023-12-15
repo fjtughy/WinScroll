@@ -216,7 +216,7 @@ public partial class WinScroll : Form
 
     private void aboutLinkClicked(object? sender, EventArgs e)
     {
-        System.Diagnostics.Process.Start(aboutURL);
+        System.Diagnostics.Process.Start(new ProcessStartInfo { FileName = aboutURL, UseShellExecute = true });
     }
 
 

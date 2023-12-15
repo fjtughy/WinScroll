@@ -151,14 +151,14 @@ partial class WinScroll
         // aboutLink
         // 
         this.aboutLink.AutoSize = true;
-        this.aboutLink.LinkArea = new System.Windows.Forms.LinkArea(3, 18);
+        this.aboutLink.LinkArea = new System.Windows.Forms.LinkArea(12, 18);
         this.aboutLink.LinkColor = System.Drawing.Color.Blue;
         this.aboutLink.Location = new System.Drawing.Point(6, 16);
         this.aboutLink.Name = "aboutLink";
         this.aboutLink.Size = new System.Drawing.Size(102, 17);
         this.aboutLink.TabIndex = 1;
         this.aboutLink.TabStop = true;
-        this.aboutLink.Text = "by Pete Goodfellow";
+        this.aboutLink.Text = "modified by fjtughy";
         this.tooltip.SetToolTip(this.aboutLink, "Visit the Github project page!");
         this.aboutLink.UseCompatibleTextRendering = true;
         this.aboutLink.VisitedLinkColor = System.Drawing.Color.Blue;
@@ -533,9 +533,9 @@ partial class WinScroll
         this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
         this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
         this.MaximizeBox = false;
-        this.Name = "WinScroll";
+        this.Name = "WinScroll, by Pete Goodfellow";
         this.ShowInTaskbar = false;
-        this.Text = "WinScroll";
+        this.Text = "WinScroll, by Pete Goodfellow";
         this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.OnClose);
         this.options.ResumeLayout(false);
         this.options.PerformLayout();
