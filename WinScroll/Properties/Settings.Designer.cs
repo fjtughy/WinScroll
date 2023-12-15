@@ -49,7 +49,7 @@ namespace WinScroll.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("800")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1840")]
         public decimal CaptureWidth {
             get {
                 return ((decimal)(this["CaptureWidth"]));
@@ -61,7 +61,7 @@ namespace WinScroll.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("600")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1040")]
         public decimal CaptureHeight {
             get {
                 return ((decimal)(this["CaptureHeight"]));
